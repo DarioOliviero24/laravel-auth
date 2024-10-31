@@ -2,7 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
+//Models
+use App\Http\Models\project;
+
 // Controllers
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\Admin\MainController as AdminMainController;
 
